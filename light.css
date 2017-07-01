@@ -1,7 +1,12 @@
 a.nounderline {
             text-decoration: none; 
         }
-
+.mainpage:visited {
+    color:deepskyblue;
+}
+.mainpage:link {
+    color:deepskyblue;
+}
 .font {
         font-family: Lobster, Monospace;
     }

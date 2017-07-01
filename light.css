@@ -1,0 +1,62 @@
+a.nounderline {
+            text-decoration: none; 
+        }
+
+.font {
+        font-family: Lobster, Monospace;
+    }
+    
+.button {
+    
+        color:rgba(16,170,255,1.00);
+        transition-duration: 0.8s;
+        display:inline-block;
+        border-top: 4px solid rgba(10,255,255,1.00);
+        border-left: 4px solid rgba(0,230,255,1.00);
+	    border-right: 4px solid rgba(0,165,255,1.00);
+	    border-bottom: 4px solid rgba(0,191,255,1.00);
+        width: 25%;
+        margin-bottom: 15px;
+        background-color: lightcyan
+        
+    }
+.button:hover {
+        background-color: cyan;
+        border-top: 4px solid rgba(10,155,255,1.00);
+        border-left: 4px solid rgba(0,130,255,1.00);
+	    border-right: 4px solid rgba(0,120,255,1.00);
+	    border-bottom: 4px solid rgba(0,110,255,1.00);
+        color:rgba(16,120,255,1.00);
+}
+.border {
+        border-color: crimson;
+        border-width: 10px;
+        border-style: dashed;
+        border-radius: 30%;
+    }
+    
+.border-green {
+        border-color: green;
+        border-width: 10px;
+        border-style: dashed;
+        border-radius: 30%;
+    }
+.border-blue {
+        border-color: aqua;
+        border-width: 10px;
+        border-style: dashed;
+        border-radius: 30%;
+    }
+.ani {
+        animation: fadein 1.5s;
+        transition-duration: 0.8s;
+    }
+p {
+        font-family: Monospace;
+    }
+.font-f {
+        font-family: Consolas, ubuntu-mono,'Fira Sans Extra Condensed', monospace;
+    }
+.font-r {
+        font-family: ubuntu-mono,'Roboto', Monospace;
+    }

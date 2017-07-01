@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <script type="text/javascript">
+         var tImages = new Array('pic1.jpg','pic2.jpg','pic3.jpg')
+         window.onload = function (){
+            var a, b;
+            a = document.getElementById('xMenu');
+            b = a.getElementsByTagName('a');
+               for(var i=0;i<b.length;i++) {
+                  b[i].onmouseover = fSetImg1;
+                  b[i].onmousedown = fSetImg2;
+                  b[i].onmouseout = fSetImg0;
+                  b[i].onmouseup = fSetImg0;
+               }
+         }
+         function fSetImg0(){
+            this.style.backgroundImage = "url(" +tImages[0]+ ")";
+         }
+         function fSetImg1(){
+            this.style.backgroundImage = "url(" +tImages[1]+ ")";
+         }
+         function fSetImg2(){
+            this.style.backgroundImage = "url(" +tImages[2]+ ")";
+         }
+      </script>
+      <style type="text/css">
+         #xMenu a {display:block; background: url(pic3.jpg); width:200px; height:100px; color:#00ff00; font:12px verdana;}
+      </style>
+   </head>
+   <body>
+      <div id="xMenu">
+         <a href="javascript:void(0)">Kinga, Czy</a>
+         <a href="javascript:void(0)">bedziesz</a>
+         <a href="javascript:void(0)">moja</a>
+         <a href="javascript:void(0)">dziewczyna?</a>
+      </div>
+   </body>
+</html>	

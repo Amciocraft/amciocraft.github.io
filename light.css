@@ -7,9 +7,6 @@ a.nounderline {
 .mainpage:link {
     color:deepskyblue;
 }
-.font {
-        font-family: Lobster, Monospace;
-    }
     
 .button {
     
@@ -59,9 +56,20 @@ a.nounderline {
 p {
         font-family: Monospace;
     }
-.font-f {
-        font-family: Consolas, ubuntu-mono,'Fira Sans Extra Condensed', monospace;
-    }
 .font-r {
-        font-family: ubuntu-mono,'Roboto', Monospace;
+        font-family: "Roboto","Fira Sans Extra Condensed", monospace;
     }
+.font-u {
+        font-family: 'Ubuntu Mono', Monospace;
+    }
+.font {
+        font-family: Lobster, Monospace;
+    }
+.title {
+        font-size:70px;
+        padding-bottom: 25px;
+        text-decoration: none;
+}    
+.olddown {
+    color: rgba(100,185,25,0.89);
+}

@@ -21,7 +21,7 @@ a.nounderline {
         
     }
 .button:hover {
-        background-color: cyan;
+        background-color: rgba(150,240,255,1.00);
         border-top: 4px solid rgba(10,155,255,1.00);
         border-left: 4px solid rgba(0,130,255,1.00);
 	    border-right: 4px solid rgba(0,120,255,1.00);

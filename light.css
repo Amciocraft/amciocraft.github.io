@@ -1,6 +1,3 @@
-a.nounderline {
-            text-decoration: none; 
-        }
 .mainpage:visited {
     color:deepskyblue;
 }
@@ -19,8 +16,7 @@ a.nounderline {
 	    border-bottom: 4px solid rgba(0,191,255,1.00);
         width: 25%;
         margin-bottom: 15px;
-        background-color: lightcyan
-        
+        background-color: lightcyan   
     }
 .button:hover {
         background-color: rgba(150,240,255,1.00);
@@ -49,27 +45,13 @@ a.nounderline {
         border-style: dashed;
         border-radius: 30%;
     }
-.ani {
-        animation: fadein 1.5s;
-        transition-duration: 0.8s;
-    }
-p {
-        font-family: Monospace;
-    }
-.font-r {
-        font-family: "Roboto","Fira Sans Extra Condensed", monospace;
-    }
-.font-u {
-        font-family: 'Ubuntu Mono', Monospace;
-    }
-.font {
-        font-family: Lobster, Monospace;
-    }
+
+
 .title {
         font-size:70px;
         padding-bottom: 25px;
         text-decoration: none;
 }    
-.olddown {
+.olddownload {
     color: rgba(100,185,25,0.89);
 }

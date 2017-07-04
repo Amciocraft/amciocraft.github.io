@@ -1,0 +1,28 @@
+p {
+        font-family: Monospace;
+    }
+.font-r {
+        font-family: "Roboto","Fira Sans Extra Condensed", monospace;
+    }
+.font-u {
+        font-family: 'Ubuntu Mono', Monospace;
+    }
+.font {
+        font-family: Lobster, Monospace;
+    }
+.ani {
+        animation: fadein 1.5s;
+        transition-duration: 0.8s;
+    }
+ 
+a.nounderline {
+            text-decoration: none; 
+    }
+.scale {
+    background-image: image-url("beach.jpg") ;
+    min-height:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+}

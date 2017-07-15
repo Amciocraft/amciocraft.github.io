@@ -47,3 +47,10 @@
 .olddownload {
     color: rgba(100,185,25,0.89);
 }
+.text {
+        color: limegreen;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+}

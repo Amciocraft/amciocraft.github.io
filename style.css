@@ -1,28 +1,43 @@
 p {
-        font-family: Monospace;
-    }
+    font-family: Monospace;
+}
+
 .font-r {
-        font-family: "Fira Sans Extra Condensed","Roboto", monospace;
-    }
+    font-family: "Fira Sans Extra Condensed", "Roboto", monospace;
+}
+
 .font-u {
-        font-family: 'Ubuntu Mono', Monospace;
-    }
+    font-family: 'Ubuntu Mono', Monospace;
+}
+
 .font {
-        font-family: Lobster, Monospace;
-    }
+    font-family: Lobster, Monospace;
+}
+
 .ani {
-        animation: fadein 1.5s;
-        transition-duration: 0.8s;
-    }
- 
+    animation: fadein 1.5s;
+    transition-duration: 0.8s;
+}
+
 a.nounderline {
-            text-decoration: none; 
-    }
+    text-decoration: none;
+}
+
 .scale {
-    background-image: image-url("beach.jpg") ;
-    min-height:100%;
+    background-image: image-url("beach.jpg");
+    min-height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
+}
+
+.colfade {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }

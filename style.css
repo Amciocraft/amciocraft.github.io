@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 p {
     font-family: Monospace;
 }
@@ -12,6 +14,10 @@ p {
 
 .font {
     font-family: Lobster, Monospace;
+}
+
+.font-ral {
+    font-family: 'Raleway', sans-serif;
 }
 
 .ani {

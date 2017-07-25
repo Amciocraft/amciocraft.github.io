@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200');
+
 body {
 background: -moz-linear-gradient(45deg, rgba(32,32,32,1) 13%, rgba(36,38,38,1) 28%, rgba(55,64,63,1) 90%, rgba(59,69,68,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left bottom, right top, color-stop(13%, rgba(32,32,32,1)), color-stop(28%, rgba(36,38,38,1)), color-stop(90%, rgba(55,64,63,1)), color-stop(100%, rgba(59,69,68,1))); /* safari4+,chrome */
@@ -9,6 +13,7 @@ background: -ms-linear-gradient(45deg, rgba(32,32,32,1) 13%, rgba(36,38,38,1) 28
 background: linear-gradient(45deg, rgba(32,32,32,1) 13%, rgba(36,38,38,1) 28%, rgba(55,64,63,1) 90%, rgba(59,69,68,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B4544', endColorstr='#202020',GradientType=1 ); /* ie6-9 */
     margin: 0;
+    padding: 0:
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -16,9 +21,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B4544', end
 p {
     font-family: Monospace;
 }
-
+.font-t {
+    font-family: 'Titillium Web', sans-serif;
+}
 .font-r {
     font-family: "Fira Sans Extra Condensed", "Roboto", monospace;
+}
+.font-f {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .font-u {
@@ -39,7 +49,7 @@ p {
 }
 
 a.nounderline {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .scale {
@@ -51,6 +61,10 @@ a.nounderline {
     -moz-background-size: cover;
 }
 
+.marginz {
+    margin: 0;
+    padding: 0;
+}
 .colfade {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
 

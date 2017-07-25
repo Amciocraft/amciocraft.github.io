@@ -4,7 +4,7 @@
         transition-duration: 0.8s;
         display:inline-block;
         border-top: 4px solid rgba(10,255,29,1.00);
-        border-left: 4px solid rgba(0,180,25,1.00);
+        border-left: 4px solid rgba(0,210,25,1.00);
 	    border-right: 4px solid rgba(22,136,19,1.00);
 	    border-bottom: 4px solid rgba(19,114,16,1.00);
         width: 25%;
@@ -18,8 +18,41 @@
         border-left: 4px solid rgba(0,80,25,1.00);
 	    border-right: 4px solid rgba(22,80,19,1.00);
 	    border-bottom: 4px solid rgba(19,95,16,1.00);
-        color: rgba(60, 197, 88, 0.94);
+        color: rgba(20, 220, 90, 0.94);
 }
+
+.buttonred {
+
+        color: red;
+        transition-duration: 0.8s;
+        display:inline-block;
+        border-top: 4px solid rgba(255,10,29,1.00);
+        border-left: 4px solid rgba(220,0,25,1.00);
+	    border-right: 4px solid rgba(136,22,19,1.00);
+	    border-bottom: 4px solid rgba(114,29,16,1.00);
+        width: 25%;
+        margin-bottom: 15px;
+        background-color: rgba(100, 20, 30, 0.3)
+
+    }
+.buttonred:hover {
+        background-color: rgba(34,150,30,1.00);
+        border-top: 4px solid rgba(10,100,29,1.00);
+        border-left: 4px solid rgba(0,80,25,1.00);
+	    border-right: 4px solid rgba(22,110,19,1.00);
+	    border-bottom: 4px solid rgba(19,95,16,1.00);
+        color: rgba(20, 220, 90, 0.94);
+}
+
+/*.buttonred:hover {
+        background-color: rgba(90,24,30,1.00);
+        border-top: 4px solid rgba(230,10,29,1.00);
+        border-left: 4px solid rgba(190,0,25,1.00);
+	    border-right: 4px solid rgba(12h0,22,19,1.00);
+	    border-bottom: 4px solid rgba(135,18,16,1.00);
+        color: rgba(220, 20, 90, 0.94);
+}
+*/
 .border-darg {
         border-color: darkgreen;
         border-width: 10px;
@@ -41,7 +74,9 @@
     }
 
 .title {
-        font-size:70px;
+        font-family: 'Lobster', 'Titillium Web', monospace;
+        text-align: center;
+        font-size: 45pt;
         padding-bottom: 25px;
         text-decoration: none;
 }    
@@ -54,4 +89,8 @@
         padding-left: 25px;
         padding-right: 25px;
         
+}
+
+.inlineblock {
+        display: inline-block;
 }

@@ -24,7 +24,7 @@
 .buttonred {
 
         color: red;
-        transition-duration: 0.8s;
+        transition-duration: 0.4s;
         display:inline-block;
         border-top: 4px solid rgba(255,10,29,1.00);
         border-left: 4px solid rgba(220,0,25,1.00);
@@ -35,7 +35,7 @@
         background-color: rgba(100, 20, 30, 0.3)
 
     }
-.buttonred:hover {
+/*.buttonred:hover {
         background-color: rgba(34,150,30,1.00);
         border-top: 4px solid rgba(10,100,29,1.00);
         border-left: 4px solid rgba(0,80,25,1.00);
@@ -43,25 +43,31 @@
 	    border-bottom: 4px solid rgba(19,95,16,1.00);
         color: rgba(20, 220, 90, 0.94);
 }
-
-/*.buttonred:hover {
-        background-color: rgba(90,24,30,1.00);
-        border-top: 4px solid rgba(230,10,29,1.00);
-        border-left: 4px solid rgba(190,0,25,1.00);
-	    border-right: 4px solid rgba(12h0,22,19,1.00);
-	    border-bottom: 4px solid rgba(135,18,16,1.00);
-        color: rgba(220, 20, 90, 0.94);
-}
 */
+.buttonred:hover {
+        background-color: rgba(90,24,30,1.00);
+        border-top: 4px solid rgba(200,10,29,1.00);
+        border-left: 4px solid rgba(145,0,25,1.00);
+	    border-right: 4px solid rgba(110,22,19,1.00);
+	    border-bottom: 4px solid rgba(105,18,16,1.00);
+        color: #D7263D;
+}
+
 .border-darg {
         border-color: darkgreen;
         border-width: 10px;
         border-style: dashed;
         border-radius: 30%;
     }
-    
+.container-box {
+        margin: 0 auto;
+        padding: 0;
+        overflow-y: auto;
+        max-height: 98vh;
+}
+
 .border-green {
-        border-color: green;
+        border-color: greenyellow;
         border-width: 10px;
         border-style: dashed;
         border-radius: 30%;
@@ -77,7 +83,7 @@
         font-family: 'Lobster', 'Titillium Web', monospace;
         text-align: center;
         font-size: 45pt;
-        padding-bottom: 25px;
+        padding-bottom: 0px;
         text-decoration: none;
 }    
 .olddownload {
@@ -93,4 +99,5 @@
 
 .inlineblock {
         display: inline-block;
+        color: #D7263D;
 }

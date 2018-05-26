@@ -24,10 +24,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B4544', end
 }
 html, body {
     height: 100%;
+	width: 100%;
 }
 
 p {
     font-family: Monospace;
+}
+.col-container {
+	display: table;
+	width: 100%
 }
 .column {
 	float: left;

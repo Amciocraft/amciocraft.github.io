@@ -14,7 +14,7 @@ background: -ms-linear-gradient(45deg, rgba(32,32,32,1) 13%, rgba(36,38,38,1) 28
 background: linear-gradient(45deg, rgba(32,32,32,1) 13%, rgba(36,38,38,1) 28%, rgba(55,64,63,1) 90%, rgba(59,69,68,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3B4544', endColorstr='#202020',GradientType=1 ); /* ie6-9 */
     margin: 0;
-    padding: 0:
+    padding: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-y: hidden;
@@ -28,6 +28,16 @@ html, body {
 
 p {
     font-family: Monospace;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding-bottom: 2em;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 .font-t {
     font-family: 'Titillium Web', sans-serif;

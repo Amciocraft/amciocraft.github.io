@@ -1,16 +1,17 @@
 .button {
-    
+
         color:rgba(38,228,33,1.00);
         transition-duration: 0.8s;
         display:inline-block;
         border-top: 4px solid rgba(10,255,29,1.00);
         border-left: 4px solid rgba(0,210,25,1.00);
-	    border-right: 4px solid rgba(22,136,19,1.00);
-	    border-bottom: 4px solid rgba(19,114,16,1.00);
+  	    border-right: 4px solid rgba(22,136,19,1.00);
+	      border-bottom: 4px solid rgba(19,114,16,1.00);
         width: 25%;
         margin-bottom: 15px;
         background-color: rgba(20, 100, 30, 0.3);
         font-size: 3em;
+        text-align: center;
     }
 .button:hover {
         background-color: rgba(34,140,30,1.00);
@@ -86,7 +87,7 @@
         font-size: 45pt;
         padding-bottom: 0px;
         text-decoration: none;
-}    
+}
 .olddownload {
     color: rgba(100,185,25,0.89);
 }
@@ -95,7 +96,7 @@
         padding-bottom: 25px;
         padding-left: 25px;
         padding-right: 25px;
-        
+
 }
 
 .inlineblock {
@@ -108,4 +109,10 @@
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+.bg {
+    background-color: rgba(81,81,81,0.3);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
 }

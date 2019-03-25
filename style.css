@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200');
@@ -71,6 +71,10 @@ p {
     transition-duration: 0.8s;
 }
 
+/*.text {
+  color: lightgrey;
+} */
+
 a.nounderline {
     text-decoration: none
 }
@@ -96,4 +100,8 @@ a.nounderline {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.text-container {
+  text-align: center;
 }
